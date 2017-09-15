@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: Circular,Helvetica,Arial,sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #222326;
@@ -18,8 +18,6 @@ body {
   top: 0;
   z-index: -1;
   }
-
-
 
 .navbar-dark {
   background-color: rgba(0,0,0,.6);
@@ -57,9 +55,6 @@ body {
   float: left;
   background-image: url('../images/logo.svg');
 }
-
-
-
 .text-white{
     color:white;
   }
@@ -124,4 +119,66 @@ body {
 
 #carousel-tour {
   margin-top: 50px;
+}
+.bg-white {
+  background-color: white;
+}
+.bigText {
+  font-size: 41px;
+  line-height: 1.4;
+  letter-spacing: -.02em;
+  margin: 0 0 .75em;
+  font-weight: 900;
+}
+.smallText {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: -.02em;
+}
+.album-img {
+  padding: 0;
+}
+.album-img p {
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 8px;
+}
+.albums {
+  position: relative;
+  min-height: 1px;
+  margin-top: 60px;
+  padding-left: 15px;
+  padding-right: 45px;
+}
+
+.text {
+  text-align: left;
+  padding: 60px 60px;
+}
+.phone-conatiner {
+  position: absolute;
+  top: 4px;
+}
+
+.phone-screen {
+    top: 50px;
+    left: 35px;
+    position: absolute;
+    width: 250px;
+    color: #fff;
+}
+.album-img-container {
+  margin-bottom: 24px;
+}
+
+.album-img p {
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 8px;
+  }
+.text-center {
+  align: center;
 }
